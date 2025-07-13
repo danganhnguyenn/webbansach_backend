@@ -1,5 +1,5 @@
 <h1 align="center">
-  📚✨ Web Bán Sách - BookStore ✨📚
+  📚✨ Web Bán Sách - BookStore Demo ✨📚
 </h1>
 
 <p align="center">
@@ -52,7 +52,6 @@
 
 # Clone dự án
 git clone https://github.com/danganhnguyenn/webbansach_backend.git
-cd web-bansach
 
 # Cài đặt Backend
 cd backend
