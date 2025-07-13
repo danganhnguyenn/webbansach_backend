@@ -48,32 +48,10 @@
 
 ---
 
-## ⚙️ Cài đặt nhanh
-
 # Clone dự án
 git clone https://github.com/danganhnguyenn/webbansach_backend.git
 
-# Cài đặt Backend
-cd backend
-./mvnw spring-boot:run
 
-# Cài đặt Frontend
-cd ../frontend
-npm install
-npm run dev
-📁 Cấu trúc dự án
-
-📦 web-bansach/
-├── backend/
-│   ├── src/main/java/com/example/bookstore
-│   ├── src/main/resources/
-│   └── ...
-├── frontend/
-│   ├── src/components/
-│   ├── src/pages/
-│   ├── public/
-│   └── ...
-└── README.md
 🧠 Dev Team
 🧑‍💻 Đặng Anh Nguyên
 
