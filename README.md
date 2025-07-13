@@ -32,28 +32,26 @@
 
 | Frontend (React)     | Backend (Spring Boot)     |
 |----------------------|---------------------------|
-| React + Vite         | Spring Boot 3.x           |
+| React + Vite         | Spring Boot 3.5.3           |
 | Axios                | Spring Security + JWT     |
 | TailwindCSS / SCSS   | Spring Data JPA           |
-| React Router DOM     | MySQL / PostgreSQL        |
+| React Router DOM     | MySQL         |
 
 ---
 
 ## 🖼️ Giao diện minh họa
 
 <p align="center">
-  <img src="https://your-screenshot-link.com/screenshot.png" alt="Screenshot" width="80%" />
+  <img src="https://cdn.prod.website-files.com/64da807a9aa000087e97b92d/64edd2ecf1a043242a6306aa_613f73427e8183b0d511d740_thumbnailimage.jpeg" alt="Screenshot" width="80%" />
 </p>
 
-> 📸 *Bạn có thể thay link ảnh trên bằng ảnh chụp thực tế giao diện website.*
 
 ---
 
 ## ⚙️ Cài đặt nhanh
 
-```bash
 # Clone dự án
-git clone https://github.com/yourusername/web-bansach.git
+git clone https://github.com/danganhnguyenn/webbansach_backend.git
 cd web-bansach
 
 # Cài đặt Backend
@@ -65,9 +63,7 @@ cd ../frontend
 npm install
 npm run dev
 📁 Cấu trúc dự án
-bash
-Sao chép
-Chỉnh sửa
+
 📦 web-bansach/
 ├── backend/
 │   ├── src/main/java/com/example/bookstore
@@ -80,7 +76,7 @@ Chỉnh sửa
 │   └── ...
 └── README.md
 🧠 Dev Team
-🧑‍💻 Nguyên Đặng Anh - Fullstack Developer
+🧑‍💻 Đặng Anh Nguyên
 
 🤝 Đóng góp thêm: Welcome PRs & Issues!
 
@@ -96,4 +92,4 @@ Chỉnh sửa
 ⭐ Đánh giá & Góp ý
 Nếu bạn thấy dự án này hữu ích, hãy ⭐ cho repo này và để lại góp ý nhé!
 
-<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&color=F7768E&center=true&vCenter=true&width=435&lines=M%C3%A3+ngu%E1%BB%93n+m%E1%BB%9F+%F0%9F%92%BB;Ch%E1%BB%89nh+chi%E1%BA%BFn+l%C3%A0+React+%2B+Spring+Boot+%F0%9F%9A%80;Code+ngay+th%C3%B4i+anh+em+%F0%9F%92%AA" alt="Typing SVG" /> </p> ```
+<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&color=F7768E&center=true&vCenter=true&width=435&lines=M%C3%A3+ngu%E1%BB%93n+m%E1%BB%9F+%F0%9F%92%BB;Ch%E1%BB%89nh+chi%E1%BA%BFn+l%C3%A0+React+%2B+Spring+Boot+%F0%9F%9A%80;Code+ngay+th%C3%B4i+anh+em+%F0%9F%92%AA" alt="Typing SVG" /> </p>
