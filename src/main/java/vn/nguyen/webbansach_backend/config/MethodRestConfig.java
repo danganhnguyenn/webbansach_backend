@@ -13,13 +13,19 @@ import vn.nguyen.webbansach_backend.entity.TheLoai;
 
 @Configuration
 public class MethodRestConfig implements RepositoryRestConfigurer {
-    private String url = "http://localhost:8080";
+    private String url = "http://localhost:3000";
 
     @Autowired
     private EntityManager entityManager;
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
+
+        // CORS configuration
+        cors.addMapping("/**")
+                .allowedOrigins(url)
+                .allowedMethods("GET", "POST", "PUT", "DELETE");
+
         HttpMethod[] chanCacPhuongThuc = {
                 HttpMethod.POST,
                 HttpMethod.PUT,
